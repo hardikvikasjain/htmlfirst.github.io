@@ -1,0 +1,72 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main section */
+section {
+    padding: 20px;
+}
+
+/* Styled div content */
+.content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
